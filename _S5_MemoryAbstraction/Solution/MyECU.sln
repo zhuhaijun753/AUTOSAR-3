@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1DAEE393-FB7F-46F3-BC89-0708AE1FB3D9}") = "MyECU", ".\MyECU\MyECU.vcxproj", "{1610C855-A325-4088-8ADC-0D3467867A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1610C855-A325-4088-8ADC-0D3467867A3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1610C855-A325-4088-8ADC-0D3467867A3D}.Debug|Win32.Build.0 = Debug|Win32
+		{1610C855-A325-4088-8ADC-0D3467867A3D}.Release|Win32.ActiveCfg = Release|Win32
+		{1610C855-A325-4088-8ADC-0D3467867A3D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

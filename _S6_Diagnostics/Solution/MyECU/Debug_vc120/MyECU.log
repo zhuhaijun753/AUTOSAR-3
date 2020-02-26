@@ -1,0 +1,9 @@
+﻿Build started 2/19/2018 6:13:10 AM.
+     1>Project "C:\CanCollege\Autosar4\_S6_Diagnostics\Solution\MyECU\MyECU.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         MyECU.vcxproj -> C:\CanCollege\Autosar4\_S6_Diagnostics\Solution\Debug_vc120\MyECU.dll
+     1>Done Building Project "C:\CanCollege\Autosar4\_S6_Diagnostics\Solution\MyECU\MyECU.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BSW"/>
+    <Filter Include="SWC"/>
+    <Filter Include="BSW\BswM"/>
+    <Filter Include="BSW\CanIf"/>
+    <Filter Include="BSW\CanNm"/>
+    <Filter Include="BSW\CANoeEmu"/>
+    <Filter Include="BSW\CanSM"/>
+    <Filter Include="BSW\Com"/>
+    <Filter Include="BSW\ComM"/>
+    <Filter Include="BSW\Common"/>
+    <Filter Include="BSW\Crc"/>
+    <Filter Include="BSW\Dem"/>
+    <Filter Include="BSW\Det"/>
+    <Filter Include="BSW\EcuM"/>
+    <Filter Include="BSW\Fee"/>
+    <Filter Include="BSW\MemIf"/>
+    <Filter Include="BSW\Nm"/>
+    <Filter Include="BSW\NvM"/>
+    <Filter Include="BSW\PduR"/>
+    <Filter Include="BSW\Rte"/>
+    <Filter Include="BSW\RteComponents"/>
+    <Filter Include="BSW\VStdLib"/>
+    <Filter Include="BSW\VTTCan"/>
+    <Filter Include="BSW\VTTCntrl"/>
+    <Filter Include="BSW\VTTDio"/>
+    <Filter Include="BSW\VTTFls"/>
+    <Filter Include="BSW\VTTMcu"/>
+    <Filter Include="BSW\VTTOs"/>
+    <Filter Include="BSW\VTT"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\BSW\BswM\BswM.c">
+      <Filter>BSW\BswM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\BswM_Lcfg.c">
+      <Filter>BSW\BswM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\BswM_PBcfg.c">
+      <Filter>BSW\BswM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\BswM_Callout_Stubs.c">
+      <Filter>BSW\BswM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\CanIf\CanIf.c">
+      <Filter>BSW\CanIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanIf_Lcfg.c">
+      <Filter>BSW\CanIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanIf_PBcfg.c">
+      <Filter>BSW\CanIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\CanNm\CanNm.c">
+      <Filter>BSW\CanNm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanNm_Cfg.c">
+      <Filter>BSW\CanNm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanNm_Lcfg.c">
+      <Filter>BSW\CanNm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanNm_PBcfg.c">
+      <Filter>BSW\CanNm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CANoeEmu_cfg.c">
+      <Filter>BSW\CANoeEmu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\CanSM\CanSM.c">
+      <Filter>BSW\CanSM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\CanSM_Lcfg.c">
+      <Filter>BSW\CanSM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Com\Com.c">
+      <Filter>BSW\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Com_Lcfg.c">
+      <Filter>BSW\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Com_PBcfg.c">
+      <Filter>BSW\Com</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\ComM\ComM.c">
+      <Filter>BSW\ComM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\ComM_Lcfg.c">
+      <Filter>BSW\ComM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\ComM_PBcfg.c">
+      <Filter>BSW\ComM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Crc\Crc.c">
+      <Filter>BSW\Crc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Dem\Dem.c">
+      <Filter>BSW\Dem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Dem_Lcfg.c">
+      <Filter>BSW\Dem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Dem_PBcfg.c">
+      <Filter>BSW\Dem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Det\Det.c">
+      <Filter>BSW\Det</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\EcuM\EcuM.c">
+      <Filter>BSW\EcuM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\EcuM_Cfg.c">
+      <Filter>BSW\EcuM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\EcuM_Init_PBcfg.c">
+      <Filter>BSW\EcuM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\EcuM_PBcfg.c">
+      <Filter>BSW\EcuM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\EcuM_Callout_Stubs.c">
+      <Filter>BSW\EcuM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Fee\Fee.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Fee\Fee_ChunkInfo.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Fee\Fee_Partition.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Fee\Fee_Sector.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Fee\Fee_Processing.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Fee_Lcfg.c">
+      <Filter>BSW\Fee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\MemIf\MemIf.c">
+      <Filter>BSW\MemIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\MemIf_Cfg.c">
+      <Filter>BSW\MemIf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\Nm\Nm.c">
+      <Filter>BSW\Nm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Nm_Cfg.c">
+      <Filter>BSW\Nm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Nm_Lcfg.c">
+      <Filter>BSW\Nm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM_Act.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM_Crc.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM_JobProc.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM_Qry.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\NvM\NvM_Queue.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\NvM_Cfg.c">
+      <Filter>BSW\NvM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\PduR\PduR.c">
+      <Filter>BSW\PduR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\PduR_Lcfg.c">
+      <Filter>BSW\PduR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\PduR_PBcfg.c">
+      <Filter>BSW\PduR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Rte.c">
+      <Filter>BSW\Rte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\Rte_Hook.c">
+      <Filter>BSW\Rte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VStdLib\vstdlib.c">
+      <Filter>BSW\VStdLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttCan\Can.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttCan\Can_Irq.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttCntrl\VttCntrl_Can.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Can_Lcfg.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Can_PBcfg.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\VttCntrl_Can_Cfg.c">
+      <Filter>BSW\VTTCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VTTCntrl\VttCntrl_Det.c">
+      <Filter>BSW\VTTCntrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VTTCntrl\VttCntrl_Base.c">
+      <Filter>BSW\VTTCntrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttDio\Dio.c">
+      <Filter>BSW\VTTDio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Dio_PBcfg.c">
+      <Filter>BSW\VTTDio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VTTCntrl\VttCntrl_Dio.c">
+      <Filter>BSW\VTTDio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\VttCntrl_Dio_Cfg.c">
+      <Filter>BSW\VTTDio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttFls\Fls.c">
+      <Filter>BSW\VTTFls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Fls_Lcfg.c">
+      <Filter>BSW\VTTFls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VTTCntrl\VttCntrl_Fls.c">
+      <Filter>BSW\VTTFls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\VttCntrl_Fls_Cfg.c">
+      <Filter>BSW\VTTFls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VttMcu\Mcu.c">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Mcu_PBcfg.c">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\BSW\VTTCntrl\VttCntrl_Mcu.c">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\tcb.c">
+      <Filter>BSW\VTTOs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\msg.c">
+      <Filter>BSW\VTTOs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\trustfct.c">
+      <Filter>BSW\VTTOs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\Os_Callout_Stubs.c">
+      <Filter>BSW\VTTOs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\VTTOs_Hardware_Timer.c">
+      <Filter>BSW\VTTOs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\CtApMySwc.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\CtSaDisplay.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\CtSaDoor.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\CtSaInteriorLight.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\CtCddIoHwAb.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\Main.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\Source\VttSysVars.c">
+      <Filter>SWC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Appl\GenDataVtt\Vtt_Hook.c">
+      <Filter>BSW\VTT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\BSW\BswM\BswM.h">
+      <Filter>BSW\BswM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\BswM_Cfg.h">
+      <Filter>BSW\BswM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\BswM_Private_Cfg.h">
+      <Filter>BSW\BswM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanIf\CanIf.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanIf\CanIf_Types.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanIf\CanIf_Cbk.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanIf\CanIf_GeneralTypes.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanIf\CanIf_Hooks.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\CanIf_Cfg.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\CanIf_CanTrcv.h">
+      <Filter>BSW\CanIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanNm\CanNm_Cbk.h">
+      <Filter>BSW\CanNm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanNm\CanNm.h">
+      <Filter>BSW\CanNm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\CanNm_Cfg.h">
+      <Filter>BSW\CanNm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCANoeEmu\CANoeAPI.h">
+      <Filter>BSW\CANoeEmu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCANoeEmu\CANoeEmuProcessor.h">
+      <Filter>BSW\CANoeEmu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_BswM.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_Cbk.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_ComM.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_Dcm.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_EcuM.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM_TxTimeoutException.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\CanSM\CanSM.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\CanSM_Cfg.h">
+      <Filter>BSW\CanSM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Com\Com.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Com_Cbk.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Com_Cfg.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Com_Lcfg.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Com_PBcfg.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Com_Types.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Appl_Cbk.h">
+      <Filter>BSW\Com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM_Types.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM_BusSM.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM_Nm.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM_EcuMBswM.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\ComM\ComM_Dcm.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\ComM_Lcfg.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\ComM_Cfg.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\ComM_GenTypes.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\ComM_PBcfg.h">
+      <Filter>BSW\ComM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Can_GeneralTypes.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Compiler.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\ComStack_Types.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\EthTrcv_GeneralTypes.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Eth_GeneralTypes.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Fr_GeneralTypes.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Platform_Types.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Vtt_Common\Std_Types.h">
+      <Filter>BSW\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Crc\Crc.h">
+      <Filter>BSW\Crc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Crc_Cfg.h">
+      <Filter>BSW\Crc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Dem\Dem.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Dem\Dem_Types.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Dem\Dem_Cbk.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Dem\Dem_Validation.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Dem\Dem_Cdd_Types.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Dem_Cfg.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Dem_Lcfg.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Dem_PBcfg.h">
+      <Filter>BSW\Dem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Det\Det.h">
+      <Filter>BSW\Det</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Det_cfg.h">
+      <Filter>BSW\Det</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\EcuM\EcuM.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\EcuM\EcuM_Cbk.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\EcuM\EcuM_Error.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\EcuM_Cfg.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\EcuM_Generated_Types.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\EcuM_Init_PBcfg.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\EcuM_PrivateCfg.h">
+      <Filter>BSW\EcuM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_Cbk.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_ChunkInfo.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_Int.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_IntBase.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_Partition.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_Sector.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Fee\Fee_Types.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Fee_Cfg.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Fee_PrivateCfg.h">
+      <Filter>BSW\Fee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\MemIf\MemIf.h">
+      <Filter>BSW\MemIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\MemIf\MemIf_Types.h">
+      <Filter>BSW\MemIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\MemIf_Cfg.h">
+      <Filter>BSW\MemIf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Nm\Nm_Cbk.h">
+      <Filter>BSW\Nm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Nm\Nm.h">
+      <Filter>BSW\Nm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\Nm\NmStack_Types.h">
+      <Filter>BSW\Nm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Nm_Cfg.h">
+      <Filter>BSW\Nm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Cbk.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Types.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Act.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Crc.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_JobProc.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Qry.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\NvM\NvM_Queue.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\NvM_Cfg.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\NvM_PrivateCfg.h">
+      <Filter>BSW\NvM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_Com.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_CanIf.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\PduR\PduR.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_Cfg.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_Lcfg.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_PBcfg.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\PduR_Types.h">
+      <Filter>BSW\PduR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Cbk.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Cfg.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Compiler_Cfg.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_DataHandleType.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Hook.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Main.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_MemMap.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_Type.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Rte_UserTypes.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\BswM_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\ComM_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\CtApMySwc_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\CtCddIoHwAb_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\CtSaDisplay_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\CtSaDoor_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\CtSaInteriorLight_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Dem_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Det_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\EcuM_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\NvM_MemMap.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_BswM.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_BswM_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_ComM.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_ComM_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtApMySwc.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtApMySwc_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtCddIoHwAb.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtCddIoHwAb_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaDisplay.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaDisplay_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaDoor.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaDoor_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaInteriorLight.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_CtSaInteriorLight_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_Dem.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_Dem_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_Det.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_Det_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_EcuM.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_EcuM_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_NvM.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Components\Rte_NvM_Type.h">
+      <Filter>BSW\RteComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Vtt_Rte.h">
+      <Filter>BSW\Rte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VStdLib\vstdlib.h">
+      <Filter>BSW\VStdLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCan\Can.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCan\Can_Local.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCan\Can_Hooks.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttCntrl\VttCntrl_Can.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Can_Cfg.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Can_DrvGeneralTypes.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\VttCntrl_Can_Cfg.h">
+      <Filter>BSW\VTTCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_Det.h">
+      <Filter>BSW\VTTCntrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_Base.h">
+      <Filter>BSW\VTTCntrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_ModuleIncludes.h">
+      <Filter>BSW\VTTCntrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttDio\Dio.h">
+      <Filter>BSW\VTTDio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Dio_Cfg.h">
+      <Filter>BSW\VTTDio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_Dio.h">
+      <Filter>BSW\VTTDio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\VttCntrl_Dio_Cfg.h">
+      <Filter>BSW\VTTDio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttFls\Fls.h">
+      <Filter>BSW\VTTFls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Fls_Cfg.h">
+      <Filter>BSW\VTTFls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_Fls.h">
+      <Filter>BSW\VTTFls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\VttCntrl_Fls_Cfg.h">
+      <Filter>BSW\VTTFls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttMcu\Mcu.h">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Mcu_Cfg.h">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VTTCntrl\VttCntrl_Mcu.h">
+      <Filter>BSW\VTTMcu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\Os.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\Os_cfg.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\osek.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\osekasrt.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\osekcov.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\osekerr.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\osekext.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\vrm.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\BSW\VttOs\emptymac.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\tcb.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\msg.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\trustfct.h">
+      <Filter>BSW\VTTOs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Appl\GenDataVtt\Vtt_Hook.h">
+      <Filter>BSW\VTT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Appl\GenDataVtt\CANoeEmu.rc">
+      <Filter>BSW\CANoeEmu</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

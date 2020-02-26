@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectModel xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/Vector.VTT.Configuration">
+  <FileFormatVersion xmlns="http://schemas.datacontract.org/2004/07/Vector.Reusable.ModelFramework">3</FileFormatVersion>
+  <Project z:Id="2">
+    <_p z:Ref="1" i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/Vector.Reusable.ModelFramework" />
+    <EcuInstanceSet z:Id="3">
+      <Content z:Id="4" z:Size="1">
+        <EcuInstance z:Id="5">
+          <AdditionalCompileFlags xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="6" z:Size="0" />
+          <AdditionalLinkFlags xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="7" z:Size="0" />
+          <ApplicationLibaries z:Id="8" z:Size="0" />
+          <AutoSyncSourceFiles>true</AutoSyncSourceFiles>
+          <BasicTimingParameters z:Id="9">
+            <IsrPreAndPostExecTimeNs>1000</IsrPreAndPostExecTimeNs>
+            <TaskInitAndSwitchTimeNs>1000</TaskInitAndSwitchTimeNs>
+            <TickGranularityNs>1000</TickGranularityNs>
+          </BasicTimingParameters>
+          <CpuSpeedFactor>1</CpuSpeedFactor>
+          <EcuFolder z:Id="10"></EcuFolder>
+          <EcuGenerationParameters z:Id="11">
+            <GenerateBsw>true</GenerateBsw>
+            <GenerateEcuc>true</GenerateEcuc>
+            <GenerateRte>true</GenerateRte>
+          </EcuGenerationParameters>
+          <EcuSpecificPcTargetSettings i:nil="true" />
+          <IsConsideredForTest>true</IsConsideredForTest>
+          <IsUserDefined>false</IsUserDefined>
+          <Name z:Id="12">MyECU</Name>
+          <PowerSupplyInitValue>1</PowerSupplyInitValue>
+          <ProjectGuid z:Id="13">1610C855-A325-4088-8ADC-0D3467867A3D</ProjectGuid>
+          <SourceFiles z:Id="14" z:Size="6">
+            <BasedFileName z:Id="15">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\CtApMySwc.c" /&gt;</BasedFileName>
+            <BasedFileName z:Id="16">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\CtSaDoor.c" /&gt;</BasedFileName>
+            <BasedFileName z:Id="17">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\CtSaInteriorLight.c" /&gt;</BasedFileName>
+            <BasedFileName z:Id="18">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\CtCddIoHwAb.c" /&gt;</BasedFileName>
+            <BasedFileName z:Id="19">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\Main.c" /&gt;</BasedFileName>
+            <BasedFileName z:Id="20">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Source\VttSysVars.c" /&gt;</BasedFileName>
+          </SourceFiles>
+          <TaskMappingData z:Id="21" />
+          <TaskSet z:Id="22">
+            <Content z:Id="23" z:Size="5">
+              <Task z:Id="24">
+                <ComputationTime>100</ComputationTime>
+                <Name z:Id="25">SchM_Task</Name>
+              </Task>
+              <Task z:Id="26">
+                <ComputationTime>100</ComputationTime>
+                <Name z:Id="27">Init_Task</Name>
+              </Task>
+              <Task z:Id="28">
+                <ComputationTime>100</ComputationTime>
+                <Name z:Id="29">My_Task</Name>
+              </Task>
+              <Task z:Id="30">
+                <ComputationTime>100</ComputationTime>
+                <Name z:Id="31">IO_Task</Name>
+              </Task>
+              <Task z:Id="32">
+                <ComputationTime>100</ComputationTime>
+                <Name z:Id="33">Bkgr_Task</Name>
+              </Task>
+            </Content>
+          </TaskSet>
+          <UserDefinedIncludeFolders z:Id="34" z:Size="2">
+            <BasedFileName z:Id="35">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Appl\Include" /&gt;</BasedFileName>
+            <BasedFileName z:Id="36">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\..\BSW\Vtt_Common" /&gt;</BasedFileName>
+          </UserDefinedIncludeFolders>
+          <UserPreprocessorDefinitions xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" z:Id="37" z:Size="0" />
+        </EcuInstance>
+      </Content>
+    </EcuInstanceSet>
+    <ExtraDllSet z:Id="38">
+      <Content z:Id="39" z:Size="0" />
+    </ExtraDllSet>
+    <GeneralPcTargetSettings z:Id="40">
+      <AutoCompiler>false</AutoCompiler>
+      <BuildSolution>false</BuildSolution>
+      <BuildTestApi>false</BuildTestApi>
+      <CompilerId>VS2013</CompilerId>
+      <CreateDebugVersion>true</CreateDebugVersion>
+      <GenerateSolution>true</GenerateSolution>
+      <VerboseLevel>0</VerboseLevel>
+    </GeneralPcTargetSettings>
+    <IdeSolutionFile z:Id="41">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\Solution\MyECU.sln" /&gt;</IdeSolutionFile>
+    <NetworkSet z:Id="42">
+      <Content z:Id="43" z:Size="1">
+        <Network z:Id="44">
+          <AdditionalDatabaseFiles z:Id="45" z:Size="0" />
+          <BusType>kCan</BusType>
+          <ChannelNumber>1</ChannelNumber>
+          <EcuInstanceSet z:Id="46">
+            <Content z:Id="47" z:Size="1">
+              <EcuInstance z:Ref="5" i:nil="true" />
+            </Content>
+          </EcuInstanceSet>
+          <Name z:Id="48">CAN00</Name>
+          <PhysicalChannelSet z:Id="49">
+            <Content z:Id="50" z:Size="1">
+              <PhysicalChannel z:Id="51">
+                <Name z:Id="52">CHNL</Name>
+              </PhysicalChannel>
+            </Content>
+          </PhysicalChannelSet>
+        </Network>
+      </Content>
+    </NetworkSet>
+    <OutputFolder z:Id="53">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\" /&gt;</OutputFolder>
+    <SipData z:Id="54">
+      <CBD z:Id="55">CBD0000000</CBD>
+      <Path z:Id="56">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\..\" /&gt;</Path>
+      <VttGeneratorVersion z:Id="57" />
+    </SipData>
+    <SolutionGuid z:Id="58">1DAEE393-FB7F-46F3-BC89-0708AE1FB3D9</SolutionGuid>
+    <SutFolder z:Id="59">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\SUT" /&gt;</SutFolder>
+    <SwcInstanceSet z:Id="60">
+      <Content z:Id="61" z:Size="4">
+        <SwcInstance z:Id="62">
+          <AsrPathToRootComponentType z:Id="63">/ECUCompositionTypes/ECU_Composition</AsrPathToRootComponentType>
+          <DefiningExtract z:Id="64">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\MyECU.dpa" /&gt;</DefiningExtract>
+          <IsConsideredForTest>true</IsConsideredForTest>
+          <Name z:Id="65">CtCoApplication::CpApMySwc</Name>
+          <RTEPortSet i:nil="true" />
+          <RunnableEntitySet i:nil="true" />
+          <UserDefinedEcuInstance i:nil="true" />
+        </SwcInstance>
+        <SwcInstance z:Id="66">
+          <AsrPathToRootComponentType z:Id="67">/ECUCompositionTypes/ECU_Composition</AsrPathToRootComponentType>
+          <DefiningExtract z:Id="68">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\MyECU.dpa" /&gt;</DefiningExtract>
+          <IsConsideredForTest>true</IsConsideredForTest>
+          <Name z:Id="69">CtCoApplication::CpSaDoorFrontLeft</Name>
+          <RTEPortSet i:nil="true" />
+          <RunnableEntitySet i:nil="true" />
+          <UserDefinedEcuInstance i:nil="true" />
+        </SwcInstance>
+        <SwcInstance z:Id="70">
+          <AsrPathToRootComponentType z:Id="71">/ECUCompositionTypes/ECU_Composition</AsrPathToRootComponentType>
+          <DefiningExtract z:Id="72">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\MyECU.dpa" /&gt;</DefiningExtract>
+          <IsConsideredForTest>true</IsConsideredForTest>
+          <Name z:Id="73">CtCoApplication::CpSaDoorFrontRight</Name>
+          <RTEPortSet i:nil="true" />
+          <RunnableEntitySet i:nil="true" />
+          <UserDefinedEcuInstance i:nil="true" />
+        </SwcInstance>
+        <SwcInstance z:Id="74">
+          <AsrPathToRootComponentType z:Id="75">/ECUCompositionTypes/ECU_Composition</AsrPathToRootComponentType>
+          <DefiningExtract z:Id="76">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\MyECU.dpa" /&gt;</DefiningExtract>
+          <IsConsideredForTest>true</IsConsideredForTest>
+          <Name z:Id="77">CtCoApplication::CpSaInteriorLightFront</Name>
+          <RTEPortSet i:nil="true" />
+          <RunnableEntitySet i:nil="true" />
+          <UserDefinedEcuInstance i:nil="true" />
+        </SwcInstance>
+      </Content>
+    </SwcInstanceSet>
+    <SystemDescriptionFiles z:Id="78" z:Size="1">
+      <BasedFileName z:Id="79">&lt;VFileName v="V5" f="BQL" init="1" base="cfg" name="..\..\MyECU.dpa" /&gt;</BasedFileName>
+    </SystemDescriptionFiles>
+    <TestApiFolder z:Id="80"></TestApiFolder>
+    <TestApiGenerationParameters i:nil="true" />
+  </Project>
+</ProjectModel>

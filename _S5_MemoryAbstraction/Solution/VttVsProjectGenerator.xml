@@ -1,0 +1,55 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>
+-->
+<VttVsProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.vector.com/vtt/projectgenerator">
+   <Settings
+     Compiler="VisualStudio2013"
+     RootDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\"
+     SutOutputDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\SUT" 
+     CompilerOutDirSuffix="_vc120" />
+   <Debug
+      KernelPath="RuntimeKernel.exe"
+      KernelConfigurationPath=".\..\SUT\MyECU.xml" />
+   <Solution
+      SolutionName="MyECU"
+      SolutionGuid="1DAEE393-FB7F-46F3-BC89-0708AE1FB3D9"
+      SolutionDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Solution" />
+   <Project
+      EcuInstance="MyECU"
+      ProjectGuid="1610C855-A325-4088-8ADC-0D3467867A3D"
+      ProjectDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Solution\MyECU"
+      BswDirectory="C:\CanCollege\AUTOSAR4\BSW"
+      GenDataDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\GenDataVtt" 
+      SourceDirectory="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source"
+      AdditionalCompileOptions=""
+      AdditionalLinkOptions=""
+      PowerSupplyInitValue="1"
+      ExecutionMode="PREEMPTIVE_MULTITHREAD"
+      OverwriteVisualStudioUserConfigFile="true">
+      <EcucFile Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Config\ECUC\MyECU.ecuc.arxml" />
+      <SwcType ShortName="VTT"  ModuleType="BasicSoftware" >
+          <CompileElements>
+              <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\GenDataVtt\Vtt_Hook.h"/>
+              <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\GenDataVtt\Vtt_Hook.c"/>
+          </CompileElements>
+      </SwcType>
+      <CompileElements>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\CtApMySwc.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\CtSaDisplay.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\CtSaDoor.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\CtSaInteriorLight.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\CtCddIoHwAb.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\Main.c"/>
+          <File Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source\VttSysVars.c"/>
+      </CompileElements>
+      <StateChangeFunction FunctionName="VttHook_OnStateChange" IncludeFileName="Vtt_Hook.h" />
+      <AdditionalIncludeDirectory Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Source" />
+      <AdditionalIncludeDirectory Path="C:\CanCollege\AUTOSAR4\_S5_MemoryAbstraction\Appl\Include" />
+      <AdditionalIncludeDirectory Path="C:\CanCollege\AUTOSAR4\BSW\Vtt_Common" />
+      <PreprocessorDefinition Symbol="RTE_VFB_TRACE"/>
+      <Timing Parameter="TICKDURATION" Value="1000" />
+      <Timing Parameter="PREISR" Value="1" />
+      <Timing Parameter="POSTISR" Value="1" />
+      <Timing Parameter="PRETASK" Value="1" />
+      <Timing Parameter="TASKSWITCH" Value="1" />
+   </Project>
+</VttVsProject>

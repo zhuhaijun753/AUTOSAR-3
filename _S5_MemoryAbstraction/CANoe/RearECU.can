@@ -1,0 +1,131 @@
+/*@@var:*/
+variables
+{
+message msg_Receive m;
+message msg_Transmit m2;
+msTimer delayRight; 
+msTimer delayLeft;
+}
+/*@@end*/
+
+/*@@envVar:env_RearLeftDoor:*/
+on envVar env_RearLeftDoor
+{
+  if(GetValue(env_RearLeftDoor) == 1)
+  {  
+    $sig_State_RearLeftDoor = 1; 
+   Nm_NetworkRequest();
+   
+  }
+  else
+  {
+    $sig_State_RearLeftDoor = 0; 
+  
+    setTimer(delayLeft, 200);
+    
+  }
+  
+ 
+//  output(m);
+
+}
+/*@@end*/
+
+/*@@envVar:env_RearRightDoor:*/
+on envVar env_RearRightDoor
+{
+  if(GetValue(env_RearRightDoor) == 1)
+  {  
+    $sig_State_RearRightDoor= 1;
+    Nm_NetworkRequest();
+    
+  }
+  else 
+  {
+    $sig_State_RearRightDoor= 0;
+    
+    setTimer(delayRight, 200);
+  }
+
+//  output(m);
+
+}
+/*@@end*/
+
+/*@@msg:CAN1.CAN::msg_Transmit (0x200):*/
+on message msg_Transmit
+{
+  PutValue(env_RearInteriorLight, this.sig_RearInteriorLight);
+}
+/*@@end*/
+
+/*@@startStart:Start:*/
+on start
+{
+   
+}
+/*@@end*/
+
+/*@@caplFunc:ApCanOff():*///callback
+ApCanOff ()
+{
+}
+/*@@end*/
+
+/*@@caplFunc:ApCanOn():*///callback
+ApCanOn ()
+{
+}
+/*@@end*/
+
+/*@@key:'u':*/
+on key 'u'
+{
+   ILSetEvent(sig_State_RearLeftDoor);
+}
+/*@@end*/
+
+/*@@timer:delayRight:*/
+on timer delayRight
+{
+  if (GetValue(env_RearLeftDoor)== 0) 
+  {
+    Nm_NetworkRelease();
+    Write("released!");
+  }
+}
+/*@@end*/
+
+/*@@timer:delayLeft:*/
+on timer delayLeft
+{
+  if (GetValue(env_RearRightDoor)== 0) 
+  {
+    Nm_NetworkRelease();
+    Write("released!");
+  }
+}
+/*@@end*/
+
+/*@@envVar:env_RearInteriorLight:*/
+on envVar env_RearInteriorLight
+{
+  if(GetValue(env_RearInteriorLight) == 1)
+  {  
+    $sig_State_RearInteriorLight = 1;     
+  }
+  else
+  {
+    $sig_State_RearInteriorLight = 0; 
+     
+  }
+}
+/*@@end*/
+
+/*@@preStart:PreStart:*/
+on preStart
+{
+   Nm_NetworkRelease();
+}
+/*@@end*/
+

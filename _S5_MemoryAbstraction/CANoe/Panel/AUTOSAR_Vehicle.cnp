@@ -1,0 +1,74 @@
+VPanel 22 1090 754 255 255 255""
+255 255 255
+32
+ElemSBM 137 25 935 630 ElemSBM <PE> <VFileName V4 QL> 1 "VehicleBody.bmp" * 1 0
+ElemSwitchAndDisplay 671 98 184 276 <none> <PE> EnvVar:env_RearRightDoor 0 0 0 2 <VFileName V4 QL> 1 "RR.bmp"  1 5 1 0 1 0 1
+ElemSwitchAndDisplay 669 509 192 235 <none> <PE> EnvVar:env_RearLeftDoor 0 0 0 2 <VFileName V4 QL> 1 "RL.bmp"  1 5 1 0 1 0 1
+ElemSwitchAndDisplay 730 400 113 95 <none> <PE> EnvVar:env_RearInteriorLight 0 0 0 2 <VFileName V4 QL> 1 "RearLight.bmp"  1 1 1 0 0 1 1
+ElemSwitchAndDisplay 509 366 149 152 <none> <PE> EnvVar:Dio_Channel_env_InteriorLightFront 0 0 0 2 <VFileName V4 QL> 1 "FrontLight.bmp"  1 1 1 0 0 1 1
+ElemSwitchAndDisplay 495 144 220 213 <none> <PE> EnvVar:Dio_Channel_env_DoorFrontRight 0 0 0 2 <VFileName V4 QL> 1 "FR.bmp"  1 5 1 0 1 0 1
+ElemSwitchAndDisplay 492 451 222 295 <none> <PE> EnvVar:Dio_Channel_env_DoorFrontLeft 0 0 0 2 <VFileName V4 QL> 1 "FL.bmp"  1 5 1 0 1 0 1
+ElemST 39 105 160 15 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Channel0 Bus State"
+SymbElemOCX 34 56 210 35 <none> <PE> EnvVar:Display_Odometer 0 0 0 0 0 1
+ElemST 39 35 90 15 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Odometer"
+ElemFrame 15 10 510 240 ElemFrame <PE> 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Car Information"
+ElemST 79 126 185 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""FULL_COMMUNICATION"
+ElemST 79 147 185 15 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""not FULL_COMMUNICATION"
+ElemST 39 173 235 15 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Odometer Write Request"
+ElemST 79 195 150 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""job pending"
+ElemST 79 217 100 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""job finished"
+ElemST 302 36 185 15 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""LightOnOffCounter"
+SymbElemOCX 298 57 210 35 <none> <PE> EnvVar:Display_LightOnOffCounter 0 0 0 0 0 1
+ElemBMMultiState 300 125 33 40 <none> <PE> EnvVar:Dio_Channel_env_InteriorLightFrontDEFECT 0 0 0 1 <VFileName V4 QL> 1 "..\"  4 0
+ElemST 302 105 195 15 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""Front Light Defect"
+ElemST 348 128 165 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""no defect"
+ElemST 348 148 165 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""defect"
+SymbElemOCX 45 127 15 15 <none> <PE> EnvVar:Dio_Channel_env_DisplayBusAwake 0 0 3 0 0 2
+SymbElemOCX 45 145 15 15 <none> <PE> EnvVar:Dio_Channel_env_DisplayBusAwake 1 1 3 0 0 2
+SymbElemOCX 45 198 15 15 <none> <PE> EnvVar:Display_OdometerWriteReqPending 0 0 3 0 0 3
+SymbElemOCX 45 216 15 15 <none> <PE> EnvVar:Display_OdometerWriteReqPending 1 1 3 0 0 4
+ElemBMMultiState 300 201 33 40 <none> <PE> EnvVar:Dio_Channel_env_LocalClamp15 0 0 0 1 <VFileName V4 QL> 1 ""  4 0
+ElemST 303 178 185 20 ElemST <PE> 0 0 16777215 0 -16 0 0 0 700 0 0 0 0 3 2 1 49"Courier New""local Ignition OFF"
+ElemST 347 202 85 20 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""CLAMP15 ON"
+ElemST 346 223 95 15 ElemST <PE> 0 0 16777215 0 16 0 0 0 400 0 0 0 0 0 0 0 0"Courier New""CLAMP15 OFF"
+@
+
+
+[OCX1]
+Name=LCDDisplay
+
+
+[OCX1_Properties]
+1=93b20000a8000000030008000bf25747200000005f0065007800740065006e0074007800b4150000030008000af25747200000005f0065007800740065006e00
+2=740079009e030000030007002f1726b6200000006f006e0063006f006c006f007200dddddd000000030006003ab39ea21c000000640069006700690074007300
+3=070000000b000a002471451c84ffffff73006500740064006500630069006d0061006c0000000000
+
+
+
+[OCX2]
+Name=Alarm_States_Indicator
+
+
+[OCX2_Properties]
+1=0700010001000100000000000100ffffff0001000100000000000100ffff000001000100000000000100ffff00008d0100008d01000001000000d4d0c800
+
+
+
+[OCX3]
+Name=Alarm_States_Indicator
+
+
+[OCX3_Properties]
+1=0700010001000100000000000100ffffff0001000100000000000100ff00000001000100000000000100ff0000008d0100008d01000001000000d4d0c800
+
+
+
+[OCX4]
+Name=Alarm_States_Indicator
+
+
+[OCX4_Properties]
+1=0700010001000100000000000100ffffff000100010000000000010000ff00000100010000000000010000ff00008d0100008d01000001000000d4d0c800
+
+
+
